@@ -1,7 +1,7 @@
 
 # Finetuned Gemma LLM
 
-A finetuned LLM specifically trained on datasets of python codes to learn python and help developers in debugging.
+A Finetuned Large Language Model specifically trained on datasets of python codes to teach python and help developers in debugging.
 
 [Model Link](https://huggingface.co/shahdishank/gemma-2b-it-finetune-python-codes)
 ## Run Model on Google Colab CPU
@@ -32,7 +32,7 @@ outputs = model.generate(**input_ids, max_new_tokens=2000, do_sample=True, pad_t
 response = tokenizer.decode(outputs[0], skip_special_tokens=True)
 print(response)
 ```
-## Screenshots
+## Output on Google Colab Screenshot
 ![llm_output](https://github.com/ShahDishank/gemma-finetuned/assets/109618750/01541065-76fd-4ac4-9151-ab2f4efc3329)
 
 ## Features
