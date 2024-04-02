@@ -33,8 +33,8 @@ response = tokenizer.decode(outputs[0], skip_special_tokens=True)
 print(response)
 ```
 ## Screenshots
+![llm_output](https://github.com/ShahDishank/gemma-finetuned/assets/109618750/01541065-76fd-4ac4-9151-ab2f4efc3329)
 
-![App Screenshot](https://drive.google.com/file/d/13zk_76jDhWxsV7AiPsnKf2297Gx5vRYB/view?usp=sharing)
 ## Features
 
 - Code generation
